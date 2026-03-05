@@ -41,14 +41,19 @@ header {
   background: #006587;
   background: linear-gradient(0deg, rgba(0, 101, 135, 1) 0%, rgba(0, 156, 197, 1) 100%);
   box-sizing: content-box;
-  padding: 10%;
+  padding: 3em 1em;
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.336);
   text-align: center;
 }
 
-nav {
+nav,
+header p {
   font-weight: 600;
   text-transform: uppercase;
+}
+
+header p {
+  color: white;
 }
 
 nav ul {
@@ -62,7 +67,8 @@ nav a {
 }
 
 header img {
-  width: 100%;
+  width: 80%;
+  text-align: center;
 }
 
 main,
