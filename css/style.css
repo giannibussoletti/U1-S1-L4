@@ -10,7 +10,8 @@ body {
   background-image: url(../img/sfondo.png);
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 2.2em;
@@ -18,11 +19,22 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
 p,
 ul,
 ol,
 table {
   font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 header {
@@ -64,6 +76,55 @@ main {
   padding: 2em 1.5em;
 }
 
+.authornpublic {
+  color: grey;
+}
+
+main b {
+  font-weight: 600;
+  color: #a91f73;
+}
+
+main code {
+  background-color: rgb(228, 228, 228);
+  border-radius: 0.3em;
+  border: 2px solid gray;
+}
+
+table {
+  border-bottom: 3px solid #425d9b;
+}
+
+table caption {
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 0.4em;
+}
+
+thead {
+  background-color: #425d9b;
+  color: white;
+}
+
+th,
+td {
+  padding: 1em;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(244, 244, 244);
+  border-style: solid none;
+  border-width: 2px;
+  border-color: rgb(204, 204, 204);
+}
+
+#tool-online {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #009cc5;
+}
+
 footer {
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.336);
   background-color: aliceblue;
@@ -71,6 +132,8 @@ footer {
   text-align: center;
 }
 
-.authornpublic {
-  color: grey;
+iframe {
+  width: 100%;
+  min-height: 200px;
+  border-radius: 3em;
 }
