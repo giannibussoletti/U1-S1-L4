@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
   font-family: "Poppins", sans-serif;
@@ -6,15 +6,71 @@ body {
   font-style: normal;
   max-width: 428px;
   margin: 0 auto;
+  padding: 2em;
+  background-image: url(../img/sfondo.png);
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 2.2em;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+p,
+ul,
+ol,
+table {
+  font-size: 1.3em;
 }
 
 header {
-  background-color: rgb(240, 184, 111);
+  background: #006587;
+  background: linear-gradient(0deg, rgba(0, 101, 135, 1) 0%, rgba(0, 156, 197, 1) 100%);
   box-sizing: content-box;
   padding: 10%;
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.336);
+  text-align: center;
+}
+
+nav {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
 }
 
 header img {
   width: 100%;
+}
+
+main,
+footer {
+  margin-top: 2em;
+}
+
+main {
+  background-color: white;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.336);
+  padding: 2em 1.5em;
+}
+
+footer {
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.336);
+  background-color: aliceblue;
+  padding: 0.8em 2em 2.5em 2em;
+  text-align: center;
+}
+
+.authornpublic {
+  color: grey;
 }

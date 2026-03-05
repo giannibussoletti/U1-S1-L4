@@ -36,7 +36,7 @@ p {
 
 ul,
 ol {
-  padding-left: 3em;
+  padding-left: 2em;
 }
 
 ul {
@@ -54,16 +54,7 @@ td,
 th {
   padding: 5px 10px;
 }
-/* HEADER */
 
-/* MAIN */
-
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
+b {
+  font-weight: bold;
+}
