@@ -66,7 +66,8 @@ header img {
 }
 
 main,
-footer {
+footer,
+.news-wrap {
   margin-top: 2em;
 }
 
@@ -136,4 +137,31 @@ iframe {
   width: 100%;
   min-height: 200px;
   border-radius: 3em;
+}
+
+.news-wrap {
+  background-color: rgb(228, 228, 228);
+  padding: 1em;
+}
+
+.news-wrap h3 {
+  margin: 0;
+}
+
+.news-wrap form input {
+  height: 2.5em;
+  width: 240px;
+  border-style: none none dashed none;
+}
+
+.news-wrap button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: #3466da;
+  border: none;
+  border-radius: 0;
+  color: white;
+  margin: 0.5em;
+  padding: 0.3em;
 }
