@@ -68,6 +68,7 @@ nav a {
 
 header img {
   width: 80%;
+  min-width: 190px;
   text-align: center;
 }
 
