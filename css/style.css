@@ -120,17 +120,11 @@ tbody tr:nth-child(even) {
   border-color: rgb(204, 204, 204);
 }
 
-#tool-online {
+#tool-online,
+.related-art a {
   text-decoration: underline;
   font-weight: 600;
   color: #009cc5;
-}
-
-footer {
-  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.336);
-  background-color: aliceblue;
-  padding: 0.8em 2em 2.5em 2em;
-  text-align: center;
 }
 
 iframe {
@@ -154,6 +148,12 @@ iframe {
   border-style: none none dashed none;
 }
 
+.news-wrap form input[placeholder="inserisci l'email"] {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  padding-left: 0.5em;
+}
+
 .news-wrap button {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -164,4 +164,35 @@ iframe {
   color: white;
   margin: 0.5em;
   padding: 0.3em;
+}
+
+.related-art {
+  border: 2px solid rgb(204, 204, 204);
+}
+
+.related-art a {
+  font-size: 1.5em;
+  margin: 5px 0 1px 0;
+}
+
+.related-art p:nth-child(2) {
+  margin: 0;
+}
+
+.related-art p:last-child {
+  font-size: 1em;
+  text-align: end;
+}
+
+footer {
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.336);
+  background: linear-gradient(0deg, rgb(18, 56, 68) 0%, rgb(56, 105, 117) 100%);
+  color: white;
+  padding: 0.8em 2em 2.5em 2em;
+  text-align: center;
+}
+
+footer a {
+  font-weight: 500;
+  color: rgb(255, 0, 255);
 }
